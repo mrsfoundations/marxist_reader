@@ -1,6 +1,6 @@
 # marxist_reader
 
-A new Flutter project.
+Tamil Marxist RSS Feed Reader Flutter App by [VGLUG](https://vglug.org).
 
 ## Getting Started
 
