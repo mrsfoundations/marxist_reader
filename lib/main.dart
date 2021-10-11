@@ -7,18 +7,17 @@ void main() {
 
 class home extends StatelessWidget {
   const home({ Key? key }) : super(key: key);
-
+  
   @override
   Widget build(BuildContext context) {
-    return Material(
-      child: Scaffold(
+    return MaterialApp(
+      home: Scaffold(
         appBar:AppBar(
           title: Text('Marxist-Reader'),
           centerTitle: true,
-          ) ,
-      
-        
+        ),
       ),
     );
   }
 }
+
