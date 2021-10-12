@@ -1,18 +1,17 @@
 import 'package:flutter/material.dart';
-void main (){
-   runApp(Hello());
-  
+import 'headerview.dart';
+void main() {
+  runApp(MyApp());
 }
 
-class Hello extends StatelessWidget {
-  const Hello({ Key? key }) : super(key: key);
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-      child:Scaffold(
-      appBar: AppBar(title:Text('HellowApp')),
-      ),
+    return MaterialApp(
+      theme: ThemeData.dark(),
+      home: headerview(),
     );
   }
 }
